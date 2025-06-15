@@ -23,6 +23,7 @@ from pinecone import Pinecone, ServerlessSpec
 from flask import Flask, request, jsonify
 from typing import List, Dict
 
+# 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
 class KnowledgeBaseAPI:
     def __init__(self, vector_store, embedder):
         self.vector_store = vector_store
@@ -367,7 +368,7 @@ class EMLKnowledgeBasePipeline:
 
 # Usage example
 pipeline = EMLKnowledgeBasePipeline(
-    openai_api_key="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"
+    openai_api_key="key"
     # , None # pinecone_api_key="your-pinecone-key"  # Optional
     )
 
