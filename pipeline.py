@@ -16,6 +16,7 @@ from pathlib import Path
 # from llama_index.vector_stores.faiss.base import FaissVectorStore
 import faiss
 import pickle
+import logging
 import numpy as np
 
 import pinecone
